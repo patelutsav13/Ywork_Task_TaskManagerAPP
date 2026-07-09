@@ -1,0 +1,30 @@
+# Virtual Environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+ENV/
+
+# Python caching & builds
+backend/__pycache__/
+backend/**/*.pyc
+backend/*.pyc
+backend/db.sqlite3
+backend/.pytest_cache/
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Production builds
+frontend/dist/
+dist/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE configuration
+.vscode/
+.idea/
+.gemini/
